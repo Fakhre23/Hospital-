@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Page Heading */
+h1 {
+    font-size: 2.5rem;
+    color: #007acc;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Button Base Styling */
+.PatientButton,
+.DoctorButton,
+.VistButton {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific Button Colors */
+.PatientButton {
+    background-color: #007acc;
+}
+
+.PatientButton:hover {
+    background-color: #005ea6;
+}
+
+.PatientButton:active {
+    background-color: #00497c;
+}
+
+.DoctorButton {
+    background-color: #28a745;
+}
+
+.DoctorButton:hover {
+    background-color: #218838;
+}
+
+.DoctorButton:active {
+    background-color: #1e7e34;
+}
+
+.VistButton {
+    background-color: #dc3545;
+}
+
+.VistButton:hover {
+    background-color: #c82333;
+}
+
+.VistButton:active {
+    background-color: #bd2130;
+}
